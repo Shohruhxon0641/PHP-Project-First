@@ -19,8 +19,10 @@
   <link href="../css/sb-admin-2.min.css" rel="stylesheet">
 
    <!-- Custom styles for this page -->
-   <!-- <link href="vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet"> -->
+   <link href="../vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 
+   <!-- Icons Bootstrap -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 
 <body id="page-top">
@@ -70,6 +72,13 @@
             <a class="collapse-item" href="cards.php">Cards</a>
           </div>
         </div>
+      </li>
+
+      <!-- Nav Item - Admin Profile -->
+      <li class="nav-item">
+        <a class="nav-link" href="admin_profile.php">
+          <i class="fas fa-fw fa-chart-area"></i>
+          <span>Admin Profile</span></a>
       </li>
 
       <!-- Nav Item - Utilities Collapse Menu -->
